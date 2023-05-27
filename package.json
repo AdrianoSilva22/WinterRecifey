@@ -1,0 +1,19 @@
+{
+  "name": "winterrecifey",
+  "version": "1.0.0",
+  "description": "Projeto web para serviços de refrigeração ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianoSilva22/WinterRecifey.git"
+  },
+  "author": "Washington candido, Adriano, caio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianoSilva22/WinterRecifey/issues"
+  },
+  "homepage": "https://github.com/AdrianoSilva22/WinterRecifey#readme"
+}
