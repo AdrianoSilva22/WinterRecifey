@@ -1,5 +1,6 @@
 var mysql = require("mysql");
 
+//Criando conexão com banco de dados
 var connection = mysql.createConnection({
   host: "localhost",
   database: "winterrecifey_database",
