@@ -5,6 +5,17 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+/* Formatação do menu*/
+nav {
+  display: flex;
+}
+.menu-container {
+  display: flex;
+}
+.item-do-menu {
+  display: flex;
+}
+
 /* Formatação do carrossel*/
 #carouselExampleIndicators {
   margin: auto;
