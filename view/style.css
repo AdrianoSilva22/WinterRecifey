@@ -31,6 +31,7 @@ nav {
   gap: 10px;
 }
 .item-do-menu li {
+  border-radius: 4px;
   text-align: center;
   background-color: rgb(7, 26, 68);
   margin: 0;
