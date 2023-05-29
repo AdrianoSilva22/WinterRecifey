@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: black;
 }
 /* Formatação do menu*/
 
@@ -15,6 +16,7 @@ body {
 .logo {
   margin-left: 20px;
 }
+
 nav {
   background-color: rgb(192, 240, 241);
   display: flex;
