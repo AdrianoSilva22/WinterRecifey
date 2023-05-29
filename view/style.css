@@ -4,7 +4,9 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: black;
+  background-color: #18a2ac;
+  width: 1366px;
+  height: 2000px;
 }
 /* Formatação do menu*/
 
@@ -15,19 +17,21 @@ body {
 }
 .logo {
   margin-left: 20px;
+  margin-right: 600px;
 }
 
 nav {
-  background-color: rgb(192, 240, 241);
+  padding-top: 10px;
+  background-color: rgb(9, 191, 236);
   display: flex;
   margin-bottom: 10px;
 }
 
 .item-do-menu {
   display: flex;
+  align-items: center;
 }
 .item-do-menu ul {
-  justify-content: space-between;
   list-style: none;
   display: flex;
   gap: 10px;
