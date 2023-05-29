@@ -6,12 +6,16 @@ body {
   box-sizing: border-box;
 }
 /* Formatação do menu*/
+
+.container-menu {
+  display: flex;
+}
+
 nav {
   display: flex;
+  justify-content: space-between;
 }
-.menu-container {
-  display: flex;
-}
+
 .item-do-menu {
   display: flex;
 }
