@@ -1,14 +1,16 @@
-var express = require("express");
-var connection = require("./conf/db/database.js");
-var app = express();
+const express = require("express");
+const bodyParser = require("body-parser");
+const connection = require(__dirname + "/models/db/database.js");
+const fs = require("fs");
+const app = express();
 
 app.get("/", function (req, res) {
-  console.log("pagina do index");
-  let sql = "SELECT * FROM tb_cliente";
-  connection.query(sql, function (err, result) {
-    if (err) throw err;
-    res.send(result);
-  });
+  res.sendFile(__dirname + "/view/index.html");
+});
+
+app.get("/servicos", function () {
+  req.body.conteudo;
+  res.send(req.body.name);
 });
 
 app.listen(3000, function () {
