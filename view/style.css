@@ -22,7 +22,7 @@ body {
 
 nav {
   padding-top: 10px;
-  background-color: rgb(9, 191, 236);
+  background-color: rgb(236, 251, 255);
   display: flex;
   margin-bottom: 10px;
 }
@@ -48,6 +48,12 @@ nav {
 .item-do-menu li a {
   color: white;
   text-decoration: none;
+}
+/* Fim Menu */
+
+.container-quem-somos {
+  width: 100vw;
+  background-color: rgb(248, 249, 250);
 }
 
 /* Formatação do carrossel*/
