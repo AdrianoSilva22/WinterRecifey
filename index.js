@@ -1,11 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const connection = require(__dirname + "/models/db/database.js");
 const fs = require("fs");
-
 const app = express();
-
-app.use(bodyParser.json.urlencoded({ extended: false }));
-app.user(bodyParser.json());
 
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/view/index.html");
