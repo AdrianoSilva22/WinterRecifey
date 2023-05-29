@@ -6,26 +6,202 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/view/style.css">
+  <!--Incluir o CSS do bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
   <title>WinterRecifey></title>
 </head>
 
 <body>
+  <!--Incluir o JavaScript do Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
   <!--Cabeçalho-->
   <header>
     <!-- Menu -->
     <nav>
-      <!-- Links-->
-      <div class="logo"><img src="/img/logo.png" alt="logowinterrecifey" width="90px" height="90px"></div>
-      <div>
-        <ul>
-          <li><a href="">Pág 1</a></li>
-          <li><a href="">Pág 2</a></li>
-          <li><a href="">Pág 3</a></li>
-        </ul>
+      <div class="container-menu">
+        <!-- Links-->
+        <div class="logo"><img src="/img/logo.png" alt="logowinterrecifey" width="90px" height="90px">
+        </div>
+        <div class="item-do-menu">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Serviços</a></li>
+            <li><a href="">Pág 3</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
   </header>
-  <p class="paragrafro">Caio</p>
+
+
+  <!--Carrossel de imagens-->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <!--Início indicadores para navegar nos slides do carrosel -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <!--Fim indicadores para navegar nos slides do carrosel -->
+
+    <!--Início slide carrossel-->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/img/o-bem-estar.png" class="d-block w-100" alt="img-o-bem-estar-que-você-merece">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/ofertas-especiais.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/img/ar-condicionado-nao-gela.png" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <!--Fim slide carrossel-->
+
+    <!--Início anterior e próximo slide-->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    <!--Fim anterior e próximo slide-->
+    <!--Quem Somos -->
+
+
+    <!--Área Quem Somos-->
+    <section>
+      <div class="container-quem-somos">
+        <div class="item-quem-somos">
+          <h1>Quem somos?</h1>
+          <p>
+            A empresa de refrigeração WinterRecifey é uma renomada empresa que atua no setor de refrigeração há mais de duas décadas. Com uma sólida reputação e uma equipe altamente capacitada, a empresa se destaca pela qualidade de seus produtos e serviços. A empresa oferece uma ampla gama de soluções de refrigeração para diversos setores, incluindo comercial, industrial e residencial. Seus produtos incluem sistemas de refrigeração, câmaras frigoríficas, unidades de ar condicionado e sistemas de ventilação. Além disso, a empresa também realiza a instalação, manutenção e reparo de equipamentos de refrigeração.
+            Um dos principais diferenciais da empresa WinterRecifey é o compromisso com a inovação e tecnologia. Ela está sempre atualizada com as últimas tendências do mercado e busca constantemente por soluções eficientes e sustentáveis. A empresa investe em pesquisa e desenvolvimento, buscando aprimorar seus produtos e oferecer soluções personalizadas para atender às necessidades específicas de cada cliente.
+
+          </p>
+          <div class="video-pitch">
+            [Aqui entra o vídeo do pitch]
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fim área quem somos-->
+
+    <!-- Inicio área missão, visão e valores-->
+    <section>
+      <div class="missao-visao-valores">
+        <div class="item-missao-visao-valores">
+          <!--Título-->
+          <h1>Missão, Visão e valores</h1>
+          <!-- Fim Título-->
+
+          <!--Sub-titulo missão -->
+          <h4>Missão</h4>
+          <p>
+            MisA missão da empresa de refrigeração WinterRecifey é fornecer soluções de refrigeração de alta qualidade, inovadoras e sustentáveis para seus clientes. Buscam constantemente superar as expectativas, garantindo eficiência energética, confiabilidade dos equipamentos e conforto ambiental. A empresa tem o compromisso de contribuir para um mundo mais sustentável, promovendo a economia de energia e a preservação dos recursos naturais
+          </p>
+          <!--Sub-titulo visão -->
+          <h4>Visão</h4>
+          <p>
+            Visão:
+            A visão da empresa WinterRecifey é ser reconhecida como líder no setor de refrigeração, oferecendo soluções tecnologicamente avançadas e adaptadas às necessidades do mercado. Buscam ser uma referência em inovação e qualidade, expandindo sua atuação globalmente e mantendo um relacionamento duradouro com seus clientes.
+          </p>
+          <!--Sub-titulo valores -->
+          <h4>Valores</h4>
+          <p>
+            1. Excelência: A empresa valoriza a busca pela excelência em todas as suas atividades. Buscam constantemente aprimorar seus produtos, serviços e processos para oferecer o melhor para seus clientes.<br>
+            2. Compromisso com o cliente: A empresa prioriza o relacionamento com seus clientes. Comprometem-se em entender suas necessidades, oferecer soluções personalizadas e prestar um atendimento de qualidade, buscando sempre a satisfação e fidelidade dos clientes. <br>
+            3. Integridade: A integridade é um valor fundamental na empresa WinterRecifey. Comprometem-se em agir com ética, transparência e honestidade em todas as suas relações comerciais, garantindo a confiança e o respeito de seus clientes, colaboradores e parceiros.
+          </p>
+
+        </div>
+      </div>
+    </section>
+    <!-- Fim área missão, visão e valores-->
+
+    <!-- Inicio área benefícios refrigeracao-->
+    <section>
+      <div class="beneficios-refrigeracao">
+        <div class="item-beneficio">
+          <h1>Benefícios em contratar a WinterRecifey</h1>
+          <p>
+            Ao contratar a empresa de refrigeração WinterRecifey, você poderá desfrutar de uma série de benefícios, incluindo: Experiência e conhecimento: A empresa possui uma equipe altamente qualificada e experiente, com amplo conhecimento no setor de refrigeração. Isso significa que você terá acesso a profissionais capacitados, que entendem das melhores práticas e soluções para atender às suas necessidades.
+            Suporte técnico e assistência: A empresa se preocupa em fornecer um excelente suporte técnico ao longo de todo o processo, desde a instalação até a manutenção e o reparo dos equipamentos. Se surgir algum problema ou dúvida, você poderá contar com a equipe técnica da empresa para oferecer orientação e assistência rápida e eficiente. Esses são apenas alguns exemplos dos benefícios que você pode obter ao contratar a empresa de refrigeração WinterRecifey. Com sua experiência, qualidade de produtos e serviços personalizados, eles se destacam como uma escolha confiável para atender às suas necessidades de refrigeração.
+          </p>
+
+        </div>
+      </div>
+    </section>
+    <!--Fim benefícios área refrigeracao-->
+
+
+
+
+
+    <footer class="foooter">
+      <div class="PRINCIPAL">
+        <div class="division1">A <b> WinterRecifey</b> oferece soluções de refrigeração de
+          alta qualidade para ambientes confortáveis
+          e agradáveis, com serviços personalizados para residências,
+          escritórios,comércios e indústrias. </div>
+
+        <div class="sub1">
+
+
+          <div class="divisao2cima">
+            <div class="itensDivisao2cima">
+              <a href="">Institucional</a>
+              <a href="">Serviços</a>
+              <a href="">Ajuda</a>
+              <a href="" id="atendimento">Atendimento</a>
+            </div>
+          </div>
+
+          <div class="divisao2baixo">
+
+            <div class="itensDivisao2baixo">
+              <a href="" id="quemSomos">Quem somos</a>
+              <a href="" id="andamento">Andamento do Serviço</a>
+              <a href="" id="politica">polÍtica de privacidade</a>
+              <a href="" id="numero">0800 256-0000</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="sub2">
+        <div class="itensSub2Cima">
+          <div>Formas da Pagamento</div>
+          <div>Redes Sociais</div>
+        </div>
+
+        <div class="itensSub2Baixo">
+          <div class="metodosDePagamento">
+            <a href="" target="_blank"><img src="/img/imagem.visa.png" alt="Visa"></a>
+            <a href="" target="_blank"><img src="/img/imagem.master.png" alt="Mastercard"></a>
+            <a href="" target="_blank"><img src="/img/imagem.boleto.png" alt="Boleto"></a>
+            <a href="" target="_blank" id="pix"><img src="/img/imagem.Pix.png" alt="Pix"></a>
+
+
+          </div>
+
+          <div class="redesSociais">
+
+            <a href="" target="_blank"><img src="/img/imagem.linkedin.png" alt="linkedin"></a>
+            <a href="" target="_blank"><img src="/img/imagem.facebook.png" alt="facebook"></a>
+            <a href="" target="_blank"><img src="/img/imagem.youtube.png" alt="youtube"></a>
+            <a href="" target="_blank"><img src="/img/imagem.instagram.png" alt="instagram"></a>
+
+
+          </div>
+
+        </div>
+      </div>
+    </footer>
 </body>
 
 </html>
