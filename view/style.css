@@ -13,15 +13,48 @@ body {
 }
 
 /* Formatação do menu*/
+.logo {
+  margin-left: 60px;
+  margin-right: 600px;
+}
+
+nav {
+  background-color: rgb(173, 230, 211);
+}
 .item-do-menu {
   display: flex;
   margin-bottom: 10px;
 }
 .item-do-menu ul {
+  display: flex;
+  margin-top: 22px;
   list-style: none;
   display: flex;
   gap: 10px;
 }
+.item-do-menu li {
+  border-radius: 4px;
+  text-align: center;
+  background-color: rgb(7, 26, 68);
+  margin: 0;
+  padding: 10px 40px;
+  height: 50px;
+}
+.item-do-menu li a {
+  color: white;
+  text-decoration: none;
+  transition: 300ms;
+}
+.item-do-menu a:hover {
+  color: rgb(0, 193, 241);
+}
+/*Fim do menu */
+
+.container-quem-somos {
+  width: 100vw;
+  background-color: rgb(200, 223, 247);
+}
+
 /* ***FOOTER*** */
 
 .foooter {
