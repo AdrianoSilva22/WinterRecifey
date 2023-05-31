@@ -1,16 +1,45 @@
 const express = require("express");
-const bodyParser = require("body-parser");
+//const bodyParser = require("body-parser");
 const connection = require(__dirname + "/models/db/database.js");
-const fs = require("fs");
-const app = express();
 
-app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/view/index.html");
+const value = [
+  "56776589787",
+  998877034,
+  "teste@gmail.com",
+  "washington candido dos santos da silva",
+  102,
+];
+
+const app = express();
+app.post("/clientes", function (req, res) {
+
+  addCliente(
+    value[0],
+    value[1],
+    value[2],
+    value[3],
+    value[4],
+    (error, results) => {
+      if (error) {
+        res.status(500).send("Erro ao inserir dados no banco de dados");
+      } else {
+        res.send("Dados inseridos com sucesso!");
+      }
+    }
+  );
 });
 
-app.get("/servicos", function () {
-  req.body.conteudo;
-  res.send(req.body.name);
+//bodyParser.use(bodyParser.urlencoded({ extended: false }));
+//app.use(bodyParser.json());
+
+//pegando dados do footer e jogando na tela
+//res.send(req.body.name, req.body.telefone, req.body.servico, req.body.cpf);
+app.get("/servico", function (req, res) {
+  const sql = "SELECT * FROM tb_servico";
+  connection.query(sql, function (err, result) {
+    if (err) throw err;
+    res.send(result);
+  });
 });
 
 app.listen(3000, function () {

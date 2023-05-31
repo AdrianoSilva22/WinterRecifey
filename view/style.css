@@ -1,23 +1,121 @@
 @charset "UTF-8";
 body {
   /* Resetando as config padrão do body*/
-  margin: 0;
+  margin: 0 auto 0 auto;
   padding: 0;
   box-sizing: border-box;
-
+  background-color: #ffffff;
+  width: 1200px;
 }
-
 /* Formatação do carrossel*/
 #carouselExampleIndicators {
   margin: auto;
-  width: 745px;
+  width: 1200px;
   height: 400px;
 }
 
+/* Formatação do menu*/
+.logo {
+  margin-left: 60px;
+  margin-right: 600px;
+}
 
+nav {
+  background-color: rgb(173, 230, 211);
+}
+.item-do-menu {
+  display: flex;
+  margin-bottom: 10px;
+}
+.item-do-menu ul {
+  display: flex;
+  margin-top: 22px;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+.item-do-menu li {
+  border-radius: 4px;
+  text-align: center;
+  background-color: rgb(7, 26, 68);
+  margin: 0;
+  padding: 10px 40px;
+  height: 50px;
+}
+.item-do-menu li a {
+  color: white;
+  text-decoration: none;
+  transition: 300ms;
+}
+.item-do-menu a:hover {
+  color: rgb(255, 255, 255);
+}
+.item-do-menu li:hover {
+  color: white;
+  background-color: rgb(17, 2, 41);
+}
+/*Fim do menu */
+
+/* Início Section Quem Somos */
+
+.container-quem-somos {
+  margin-top: 10px;
+  background-color: rgb(200, 223, 247);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.container-quem-somos h1 {
+  margin-left: 65px;
+}
+.container-quem-somos p {
+  margin: 0px 120px 20px 40px;
+  text-indent: 2%;
+  text-align: justify;
+}
+/* Fim Quem Somos */
+
+/* Início Section Missão Visão Valores  */
+.missao-visao-valores {
+  width: 1200px;
+  padding-top: 30px;
+  color: white;
+  background-color: rgb(1, 29, 59);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.missao-visao-valores h1 {
+  margin-left: 65px;
+}
+.missao-visao-valores p {
+  margin: 0px 120px 20px 40px;
+  text-align: justify;
+}
+.missao-visao-valores h4 {
+  margin-left: 65px;
+}
+/* Fim Section Missão Visão Valores  */
+
+/* Início Section Benefícios */
+.beneficios-refrigeracao {
+  width: 1200px;
+  margin-top: 10px;
+  padding-top: 30px;
+  color: #212529;
+  background-color: rgb(200, 223, 247);
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+.beneficios-refrigeracao h1 {
+  margin-left: 65px;
+}
+.beneficios-refrigeracao p {
+  margin: 0px 120px 20px 40px;
+  text-indent: 2%;
+  text-align: justify;
+}
+/* Fim Section Benefícios */
 
 /* ***FOOTER*** */
-
 
 .foooter {
   width: 100vw;
@@ -25,160 +123,146 @@ body {
   margin-left: 0;
   margin-right: 0;
   background-color: rgba(242, 242, 242, 255);
-
-
 }
 
-.PRINCIPAL{
+.PRINCIPAL {
   display: flex;
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-
-
 .divisao2cima {
-font-size: medium;
-font-weight: bolder;
-padding-left: 40px;
-padding-top: 30px;
-padding-right: 50px;
+  font-size: medium;
+  font-weight: bolder;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 50px;
 }
 
 .itensDivisao2cima {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-
 .division1 {
-width: 30vw;
-height: 100%;
-padding: 30px;
+  width: 30vw;
+  height: 100%;
+  padding: 30px;
 
-margin-left: 20px;
+  margin-left: 20px;
 
-font-size: small;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-border-right: 1px solid rgba(177,177,177,255);
-color: rgba(134, 134, 134, 255);
-font-weight: bolder;
+  font-size: small;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-right: 1px solid rgba(177, 177, 177, 255);
+  color: rgba(134, 134, 134, 255);
+  font-weight: bolder;
 }
 
 .division1 b {
-color: black;
+  color: black;
 }
 
 .sub1 {
-width: 60vw;
-height: 20vh;
-margin-left: 50px;
-
-
+  width: 60vw;
+  height: 20vh;
+  margin-left: 50px;
 }
 
 .itensDivisao2cima a {
-text-decoration: none;
-color: #26509c;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-margin-left: 10px;
-font-size: 16px;
+  text-decoration: none;
+  color: #26509c;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-left: 10px;
+  font-size: 16px;
 }
 
-
 .divisao2baixo {
-
-font-weight: bolder;
-padding-left: 40px;
-padding-top: 30px;
-padding-right: 50px;
-
+  font-weight: bolder;
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-right: 50px;
 }
 
 .itensDivisao2baixo {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .itensDivisao2baixo a {
-
-text-decoration: none;
-color: rgba(134, 134, 134, 255);
-font-family: Arial, Helvetica, sans-serif;
-margin-left: 0px;
-font-size: 12px;
-margin-left: 25px;
+  text-decoration: none;
+  color: rgba(134, 134, 134, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0px;
+  font-size: 12px;
+  margin-left: 25px;
 }
 
 #quemSomos {
-margin-left: 10px;
+  margin-left: 10px;
 }
 
 #andamento {
-margin-left: 115px;
+  margin-left: 115px;
 }
 
 #politica {
-margin-left: 40px;
+  margin-left: 40px;
 }
 
 #numero {
-font-size: medium;
-color: #26509c;
-margin-left: 20px;
-font-size: 14px;
+  font-size: medium;
+  color: #26509c;
+  margin-left: 20px;
+  font-size: 14px;
 }
 
 #atendimento {
-margin-right: 10px;
+  margin-right: 10px;
 }
 
 /* ***PARTE DOIS DO FOOTER*** */
 
-.sub2{
-
-background-color: rgba(230,230,230,255);
-margin-top: 0;
-padding-top: 0;
-
-
+.sub2 {
+  background-color: rgba(230, 230, 230, 255);
+  margin-top: 0;
+  padding-top: 0;
 }
 
-.itensSub2Cima{
-margin-left:20% ;
-margin-right: 20%;
-margin-top: 0;
-padding-top: 3%;
+.itensSub2Cima {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 0;
+  padding-top: 3%;
 
-display: flex;
-justify-content: space-between;
-font-weight: bolder;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
 }
 
-.itensSub2Baixo{
-display: flex;
-justify-content: space-between;
-width: 100vw;
+.itensSub2Baixo {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
 }
 
-.metodosDePagamento{
-margin-left:20% ;
-margin-right: 20%;
-margin-top: 2%;
-display: flex;
-justify-content: space-between;
-width: 20vw;
+.metodosDePagamento {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
 }
 
 #pix {
-margin-top: 15px;
+  margin-top: 15px;
 }
 
-.redesSociais{
-margin-left:20% ;
-margin-right: 20%;
-margin-top: 2%;
-display: flex;
-justify-content: space-between;
-width: 20vw;
+.redesSociais {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
 }
