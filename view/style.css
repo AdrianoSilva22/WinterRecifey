@@ -71,6 +71,7 @@ nav {
   margin-left: 65px;
   margin-bottom: 20px;
 }
+
 .container-quem-somos p {
   margin: 0px 10px 20px 40px;
   text-indent: 2%;
@@ -83,9 +84,9 @@ nav {
 }
 .video-pitch video {
   display: flex;
-  margin-right: 20px;
-  margin-left: 10px;
-  margin-top: 32px;
+  margin-right: 0px;
+  margin-left: 60px;
+  margin-top: 70px;
 }
 /* Fim Quem Somos */
 
