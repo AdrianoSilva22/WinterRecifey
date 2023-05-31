@@ -50,7 +50,7 @@ nav {
 }
 /*Fim do menu */
 
-/* Section Quem Somos */
+/* Início Section Quem Somos */
 
 .container-quem-somos {
   width: 100vw;
@@ -64,6 +64,27 @@ nav {
   margin: 0px 120px 20px 40px;
   text-indent: 2%;
   text-align: justify;
+}
+/* Fim Quem Somos */
+
+/* Início Section Missão Visão Valores  */
+.missao-visao-valores {
+  padding-top: 30px;
+  color: white;
+  width: 100vw;
+  background-color: rgb(1, 29, 59);
+  margin-bottom: 10px;
+}
+.missao-visao-valores h1 {
+  margin-left: 65px;
+}
+.missao-visao-valores p {
+  margin: 0px 120px 20px 40px;
+  text-indent: 2%;
+  text-align: justify;
+}
+.missao-visao-valores h4 {
+  margin-left: 65px;
 }
 
 /* ***FOOTER*** */
