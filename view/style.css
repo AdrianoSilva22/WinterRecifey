@@ -71,6 +71,15 @@ nav {
   margin-left: 65px;
   margin-bottom: 20px;
 }
+.item-quem-somos span {
+  width: 70px;
+  background-color: rgb(2, 3, 66);
+  height: 4px;
+  margin-left: 70px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  border-radius: 2px;
+}
 
 .container-quem-somos p {
   margin: 0px 10px 20px 40px;
