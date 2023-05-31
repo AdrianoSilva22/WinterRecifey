@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #ffffff;
 }
 /* Formatação do carrossel*/
 #carouselExampleIndicators {
@@ -46,7 +47,11 @@ nav {
   transition: 300ms;
 }
 .item-do-menu a:hover {
-  color: rgb(0, 193, 241);
+  color: rgb(255, 255, 255);
+}
+.item-do-menu li:hover {
+  color: white;
+  background-color: rgb(17, 2, 41);
 }
 /*Fim do menu */
 
@@ -89,7 +94,7 @@ nav {
 }
 /* Fim Section Missão Visão Valores  */
 
-/* Section Benefícios */
+/* Início Section Benefícios */
 .beneficios-refrigeracao {
   margin-top: 10px;
   padding-top: 30px;
@@ -107,6 +112,7 @@ nav {
   text-indent: 2%;
   text-align: justify;
 }
+/* Fim Section Benefícios */
 
 /* ***FOOTER*** */
 
