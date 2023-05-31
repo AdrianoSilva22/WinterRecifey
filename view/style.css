@@ -1,15 +1,16 @@
 @charset "UTF-8";
 body {
   /* Resetando as config padrão do body*/
-  margin: 0;
+  margin: 0 auto 0 auto;
   padding: 0;
   box-sizing: border-box;
   background-color: #ffffff;
+  width: 1200px;
 }
 /* Formatação do carrossel*/
 #carouselExampleIndicators {
   margin: auto;
-  width: 745px;
+  width: 1200px;
   height: 400px;
 }
 
@@ -58,7 +59,7 @@ nav {
 /* Início Section Quem Somos */
 
 .container-quem-somos {
-  width: 100vw;
+  margin-top: 10px;
   background-color: rgb(200, 223, 247);
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -75,9 +76,9 @@ nav {
 
 /* Início Section Missão Visão Valores  */
 .missao-visao-valores {
+  width: 1200px;
   padding-top: 30px;
   color: white;
-  width: 100vw;
   background-color: rgb(1, 29, 59);
   margin-bottom: 10px;
   padding-bottom: 10px;
@@ -96,10 +97,10 @@ nav {
 
 /* Início Section Benefícios */
 .beneficios-refrigeracao {
+  width: 1200px;
   margin-top: 10px;
   padding-top: 30px;
   color: #212529;
-  width: 100vw;
   background-color: rgb(200, 223, 247);
   margin-bottom: 10px;
   padding-bottom: 10px;
