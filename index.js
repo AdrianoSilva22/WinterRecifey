@@ -10,18 +10,6 @@ const value = [
   102,
 ];*/
 
-function addCliente(cpf, telefone, email, name, servico) {
-  const query =
-    "INSERT INTO  tb_cliente ( cpf,telefone,email,nome,cod_servico_cliente) VALUES (?,?,?,?,?)";
-  connection.query(
-    query,
-    [cpf, telefone, email, name, servico],
-    (err, result) => {
-      if (err) throw err;
-      console.log("regristo realizado dentro do banco ");
-    }
-  );
-}
 const app = express();
 app.get("/clientes", function (req, res) {
   res.sendFile(__dirname + "/view/index.html");
