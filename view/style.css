@@ -19,7 +19,42 @@ body {
   margin-left: 60px;
   margin-right: 200px;
 }
+.item-do-menu {
+  display: flex;
+  justify-content: space-between;
+}
+nav {
+  background-color: rgb(200, 223, 247);
+  margin-bottom: 10px;
+}
+div ul {
+  margin-right: 10px;
+}
 
+ul {
+  margin-top: 15px;
+  display: flex;
+  list-style: none;
+  background-color: rgb(1, 29, 59);
+  border-radius: 6px;
+  padding: 0px;
+  padding-left: 0px;
+}
+li {
+  padding: 12px;
+  margin: 2px;
+}
+li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+a:hover {
+  color: rgb(0, 0, 0);
+}
+li:hover {
+  border-radius: 6px;
+  background-color: rgb(171, 209, 240);
+}
 /*Fim do menu */
 
 /* Início Section Quem Somos */
@@ -109,10 +144,7 @@ body {
 /* ***FOOTER*** */
 
 .foooter {
-  width: 100vw;
-  height: 50%;
-  margin-left: 0;
-  margin-right: 0;
+  width: 100%;
   background-color: rgba(242, 242, 242, 255);
 }
 
@@ -251,7 +283,7 @@ body {
 
 .redesSociais {
   margin-left: 20%;
-  margin-right: 20%;
+  margin-right: 70%;
   margin-top: 2%;
   display: flex;
   justify-content: space-between;
