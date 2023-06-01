@@ -19,40 +19,41 @@ body {
   margin-left: 60px;
   margin-right: 600px;
 }
-
-nav {
-  background-color: rgb(173, 230, 211);
-}
 .item-do-menu {
   display: flex;
+  justify-content: space-between;
+}
+nav {
+  background-color: rgb(200, 223, 247);
   margin-bottom: 10px;
 }
-.item-do-menu ul {
+div ul {
+  margin-right: 10px;
+}
+
+ul {
+  margin-top: 15px;
   display: flex;
-  margin-top: 22px;
   list-style: none;
-  display: flex;
-  gap: 10px;
+  background-color: rgb(1, 29, 59);
+  border-radius: 6px;
+  padding: 0px;
+  padding-left: 0px;
 }
-.item-do-menu li {
-  border-radius: 4px;
-  text-align: center;
-  background-color: rgb(7, 26, 68);
-  margin: 0;
-  padding: 10px 40px;
-  height: 50px;
+li {
+  padding: 12px;
+  margin: 2px;
 }
-.item-do-menu li a {
-  color: white;
-  text-decoration: none;
-  transition: 300ms;
-}
-.item-do-menu a:hover {
+li a {
   color: rgb(255, 255, 255);
+  text-decoration: none;
 }
-.item-do-menu li:hover {
-  color: white;
-  background-color: rgb(17, 2, 41);
+a:hover {
+  color: rgb(0, 0, 0);
+}
+li:hover {
+  border-radius: 6px;
+  background-color: rgb(171, 209, 240);
 }
 /*Fim do menu */
 
@@ -118,10 +119,7 @@ nav {
 /* ***FOOTER*** */
 
 .foooter {
-  width: 100vw;
-  height: 50%;
-  margin-left: 0;
-  margin-right: 0;
+  width: 100%;
   background-color: rgba(242, 242, 242, 255);
 }
 
@@ -260,7 +258,7 @@ nav {
 
 .redesSociais {
   margin-left: 20%;
-  margin-right: 20%;
+  margin-right: 70%;
   margin-top: 2%;
   display: flex;
   justify-content: space-between;
