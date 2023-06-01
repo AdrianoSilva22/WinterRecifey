@@ -92,6 +92,7 @@ li:hover {
 }
 
 .container-quem-somos p {
+  font-size: 1.1rem;
   margin: 0px 10px 20px 40px;
   text-indent: 2%;
   text-align: justify;
@@ -123,6 +124,7 @@ li:hover {
   margin-left: 65px;
 }
 .missao-visao-valores p {
+  font-size: 1.1rem;
   margin: 0px 120px 20px 40px;
   text-align: justify;
 }
@@ -146,6 +148,7 @@ li:hover {
   margin-left: 65px;
 }
 .beneficios-refrigeracao p {
+  font-size: 1.1rem;
   margin: 0px 120px 20px 40px;
   text-indent: 2%;
   text-align: justify;
