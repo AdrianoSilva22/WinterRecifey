@@ -1,4 +1,12 @@
 @charset "UTF-8";
+@font-face {
+  font-family: goldplay;
+  src: url(/view/Font/Goldplay\ Alt\ SemiBold.otf);
+}
+@font-face {
+  font-family: geometric;
+  src: url(/view/Font/geometricslabserif703boldbt/geometric\ slabserif\ 703\ bold\ bt.ttf);
+}
 body {
   /* Resetando as config padrão do body*/
   margin: 0 auto 0 auto;
@@ -66,10 +74,14 @@ li:hover {
   padding-bottom: 10px;
 }
 .container-quem-somos h1 {
+  font-family: geometric;
+  padding-top: 20px;
+  display: flex;
   margin-left: 65px;
 }
 .container-quem-somos p {
-  margin: 0px 120px 20px 40px;
+  font-size: 1.1rem;
+  margin: 0px 10px 20px 40px;
   text-indent: 2%;
   text-align: justify;
 }
@@ -85,9 +97,11 @@ li:hover {
   padding-bottom: 10px;
 }
 .missao-visao-valores h1 {
+  font-family: geometric;
   margin-left: 65px;
 }
 .missao-visao-valores p {
+  font-size: 1.1rem;
   margin: 0px 120px 20px 40px;
   text-align: justify;
 }
@@ -107,9 +121,11 @@ li:hover {
   padding-bottom: 10px;
 }
 .beneficios-refrigeracao h1 {
+  font-family: geometric;
   margin-left: 65px;
 }
 .beneficios-refrigeracao p {
+  font-size: 1.1rem;
   margin: 0px 120px 20px 40px;
   text-indent: 2%;
   text-align: justify;
@@ -227,6 +243,7 @@ li:hover {
 }
 
 .itensSub2Cima {
+  display: flex;
   margin-left: 20%;
   margin-right: 20%;
   margin-top: 0;
@@ -257,10 +274,31 @@ li:hover {
 }
 
 .redesSociais {
-  margin-left: 20%;
-  margin-right: 70%;
-  margin-top: 2%;
+  width: 38%;
   display: flex;
-  justify-content: space-between;
-  width: 20vw;
+  margin-top: 40px;
+}
+.redesSociais .linkedin {
+  margin-right: 5px;
+}
+.redesSociais .instagram {
+  margin-right: 5px;
+}
+
+/* inputs do form */
+#myForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.styleInputs {
+  width: 300px;
 }
