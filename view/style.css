@@ -59,18 +59,33 @@ nav {
 /* Início Section Quem Somos */
 
 .container-quem-somos {
+  display: flex;
   margin-top: 10px;
   background-color: rgb(200, 223, 247);
   margin-bottom: 10px;
   padding-bottom: 10px;
 }
 .container-quem-somos h1 {
+  padding-top: 20px;
+  display: flex;
   margin-left: 65px;
+  margin-bottom: 20px;
 }
 .container-quem-somos p {
-  margin: 0px 120px 20px 40px;
+  margin: 0px 10px 20px 40px;
   text-indent: 2%;
   text-align: justify;
+  width: 520px;
+}
+.item-quem-somos {
+  display: flex;
+  flex-direction: column;
+}
+.video-pitch video {
+  display: flex;
+  margin-right: 20px;
+  margin-left: 10px;
+  margin-top: 32px;
 }
 /* Fim Quem Somos */
 
