@@ -1,10 +1,15 @@
-var mysql = require("mysql");
+const Sequelize = require("sequelize");
 //Criando conexão com banco de dados
-const connection = mysql.createConnection({
+const connection = new Sequelize("winterrecifey_database", "root", "123456", {
   host: "localhost",
-  database: "winterrecifey_database",
-  user: "root",
-  password: "root",
+  dialect: "mysql",
 });
-
+connection
+  .authenticate()
+  .then(function () {
+    console.log("Conexão com banco de dados realizada com sucesso!");
+  })
+  .catch(function () {
+    console.log("Erro:Conexão com banco de dados realizada com sucesso!");
+  });
 module.exports = connection;
