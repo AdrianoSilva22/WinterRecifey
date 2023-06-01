@@ -1,6 +1,6 @@
 const Sequelize = require("sequelize");
 //Criando conexão com banco de dados
-const connection = new Sequelize("winterrecifey_database", "root", "123456", {
+const connection = new Sequelize("winterrecifey_database", "root", "root", {
   host: "localhost",
   dialect: "mysql",
 });
