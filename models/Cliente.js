@@ -11,7 +11,7 @@ const Cliente = db.define(
       primaryKey: true,
     },
     telefone: {
-      type: DataTypes.STRING(12),
+      type: DataTypes.INTEGER(12),
       allowNull: false,
     },
     email: {
