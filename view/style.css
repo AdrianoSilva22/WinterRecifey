@@ -32,6 +32,8 @@ body {
   justify-content: space-between;
 }
 nav {
+  width: 100%;
+  z-index: 1;
   background-color: rgb(200, 223, 247);
   margin-bottom: 10px;
 }
