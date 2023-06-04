@@ -1,12 +1,8 @@
 const express = require("express");
 const { Cliente, Servico } = require("./models/Cliente.js");
-const cors = require('cors');
+const cors = require("cors");
 const app = express();
-
-app.use(cors({
-  origin: 'http://127.0.0.1:5500' 
-}));
-
+app.use(cors({ origin: "http://127.0.0.1:5500" }));
 app.use(express.json());
 app.post("/cadastrar", async (req, res) => {
   console.log(req.body);
@@ -31,4 +27,3 @@ app.get("/servico", async (req, res) => {
 app.listen(3000, function () {
   console.log("Servido rodando na porta 3000");
 });
-

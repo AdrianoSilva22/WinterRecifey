@@ -25,7 +25,7 @@ body {
 /* Formatação do menu*/
 .logo {
   margin-left: 60px;
-  margin-right: 200px;
+  margin-right: 600px;
 }
 .item-do-menu {
   display: flex;
@@ -70,7 +70,6 @@ li:hover {
 /* Início Section Quem Somos */
 
 .container-quem-somos {
-  display: flex;
   margin-top: 10px;
   background-color: rgb(200, 223, 247);
   margin-bottom: 10px;
@@ -81,34 +80,12 @@ li:hover {
   padding-top: 20px;
   display: flex;
   margin-left: 65px;
-  margin-bottom: 20px;
 }
-.item-quem-somos span {
-  width: 70px;
-  background-color: rgb(2, 3, 66);
-  height: 4px;
-  margin-left: 70px;
-  margin-top: -10px;
-  margin-bottom: 10px;
-  border-radius: 2px;
-}
-
 .container-quem-somos p {
   font-size: 1.1rem;
   margin: 0px 10px 20px 40px;
   text-indent: 2%;
   text-align: justify;
-  width: 520px;
-}
-.item-quem-somos {
-  display: flex;
-  flex-direction: column;
-}
-.video-pitch video {
-  display: flex;
-  margin-right: 0px;
-  margin-left: 60px;
-  margin-top: 70px;
 }
 /* Fim Quem Somos */
 
@@ -308,4 +285,22 @@ li:hover {
 }
 .redesSociais .instagram {
   margin-right: 5px;
+}
+
+/* inputs do form */
+#myForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.styleInputs {
+  width: 300px;
 }
